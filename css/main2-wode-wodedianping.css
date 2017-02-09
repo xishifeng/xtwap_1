@@ -1,0 +1,43 @@
+@charset "utf-8";
+div.wode-wodedianping-tab{
+	line-height: 1.0666rem;
+	overflow: hidden;
+	background-color: white;
+}
+div.wode-wodedianping-tab>span{
+	float: left;
+	width: 2.5rem;
+	font-size: 0.4266rem;
+	height: 1.0666rem;
+	text-align: center;
+	border-bottom: 1px solid #d3d1d2;
+}
+div.wode-wodedianping-tab>div{
+	float: left;
+	width: 5rem;
+	height: 1.0666rem;
+	border-bottom: 1px solid #d3d1d2;
+}
+div.wode-wodedianping-tab>span.wode-wodedianping-tab-span-active{
+	color: #f53049;
+	border-bottom: 1px solid #F53049;
+}
+
+
+
+
+
+div.wodedianping-yipingjia-content{
+	background-color: white;
+	margin-top: 0.2666rem;
+	border-top: 1px solid #d3d1d2;
+}
+
+div.wodedianping-daipingjia-content{
+	display: none;
+}
+
+
+
+
+

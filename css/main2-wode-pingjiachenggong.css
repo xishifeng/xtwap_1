@@ -1,0 +1,29 @@
+@charset "utf-8";
+div.pingjiachenggong-content{
+	border-bottom: 1px solid #d8d8d8;
+	padding: 1.7333rem 0;
+	background-color: white;
+}
+
+div.pingjiachenggong-content>p:first-child{
+	color: #f53049;
+	font-size: 0.4266rem;
+	line-height: 1.1333rem;
+	padding-bottom: 0.5333rem ;
+	text-align: center;
+}
+div.pingjiachenggong-content>p:first-child>span::before{
+	font-family: "icon-font-1028";
+	font-size: 1.1333rem;
+	content: "\e930";
+	line-height: 1.1333rem;
+	vertical-align: middle;
+	padding-right: 0.5rem;
+	
+}
+div.pingjiachenggong-content>p:last-child{
+	font-size: 0.32rem;
+	text-align: center;
+	color: #7d7b7b;
+	
+}

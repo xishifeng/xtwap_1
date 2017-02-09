@@ -1,0 +1,121 @@
+@charset "utf-8";
+form{
+	display: none;
+}
+
+div.pingjia-content-yuju{
+	background-color: white;
+	overflow: hidden;
+
+	
+}
+section.pingjia-zongfen{
+	padding: 0.5333rem 0 0.5333rem 0.5333rem;
+	font-size: 0.5333rem;
+	background-color: white;
+}
+section.pingjia-zongfen>span::before{
+	font-family: "icon-font-1028";
+    padding: 0 0.06rem;
+    color: #b4b4b4;
+    content: "\e927";
+}
+section.pingjia-zongfen>span.pingjia-zongfen-span-active::before{
+    color: #f53049;
+}
+
+textarea{
+	display: block;
+	background-color: white;
+	width: 8.5066rem;
+	height: 3.8rem;
+	box-sizing: border-box;
+	padding-bottom: 0.5rem;
+
+	margin-left: 0.5333rem;
+	resize: none;
+	border: none;
+}
+textarea.pingjia-textarea-chushi{
+	color: #b4b4b4;
+}
+
+div.pingjia-content-shangchuantupian{
+	background-color: white;
+	overflow: hidden;
+	padding: 0.4rem 0 0.4rem 0.5333rem;
+	margin-top: 0.2666rem;
+	margin-bottom: 0.2666rem;
+	position: relative;
+}
+div.pingjia-content-shangchuantupian>input[type='file']{
+	position: absolute;
+	left: 0.5333rem;
+	width: 3.4665rem;
+	height: 1.6rem;
+	z-index: 1;
+	opacity: 0;
+}
+div.pingjia-content-shangchuantupian>div{
+	background-color: transparent;
+	outline: none;
+	width: 1.6rem;
+	height: 1.6rem;
+	background-color: #cfcece;
+	background-image: url(../img/shangpinpingjia/上传图片.png);
+	background-size: 1.28rem 1.28rem;
+	background-repeat: no-repeat;
+	background-position: 0.16rem 0.16rem;
+	float: left;
+}
+div.pingjia-content-shangchuantupian>span{
+	line-height: 1.6rem;
+	color: #cfcece;
+	font-size: 0.3733rem;
+	padding-left: 1em;
+	float: left;
+}
+
+
+p.pingjia-content-niming{
+	background-color: white;
+	line-height: 1.2rem;
+	overflow: hidden;
+	position: relative;
+}
+p.pingjia-content-niming>span{
+	float: right;
+	margin-right: 1.3rem;
+	color: #b4b4b4;
+	font-size: 0.4266rem;
+}
+p.pingjia-content-niming>input{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0.5333rem;
+    height: 0.5333rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.2666rem;
+    right: 0.55rem;
+    border: 1px solid #868585;
+    border-radius: 0.1rem;
+}
+p.pingjia-content-niming>input:checked {
+	background-size: 0.5333rem;
+	background-position: 98%;
+	background-image: url(../img/gouwuche/勾选2.gif);
+}
+
+input[type='submit']{
+	font-size: 0.4266rem;
+	position: absolute;
+	width: 1.28rem;
+	height: 1.28rem;
+	right: 0;
+	top: 0;
+	z-index: 99;
+	opacity: 0;
+	background-color: orange;
+	display: none;
+}
